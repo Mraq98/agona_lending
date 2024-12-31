@@ -1,1 +1,191 @@
-/* Здесь должны быть стили для адаптивной верстки. Удалите этот комментарий при начала разработки */
+@media (max-width: 960px) {
+    body {
+        margin: 0;
+        border: none;
+    }
+    .header_class {
+        display: none;
+        width: 100%;
+    }
+    header {
+        width: 100vw;
+    }
+    header nav {
+        width: 95%;
+        margin-left: 3%;
+    }
+    header nav ul li {
+        margin-top: 1vw;
+    }
+    .header_mobile_class {
+        display: block;
+    }
+    .menu img {
+        width: 5vw;
+        height: 5vw;
+    }
+    .contacts img {
+        width: 5vw;
+        height: 5vw;
+    }
+    main {
+        margin-top: 15vw;
+    }
+    .promo {
+        display: grid;
+    }
+    .promo_left_column {
+        width: 100%;
+        border: none;
+    }
+    .promo_logo picture img {
+        max-width: 100%;
+        width: 100vw;
+        height: 60vw;
+    }
+    .creeping_line {
+        width: 100vw;
+        height: 10vw;
+        font-size: 2vw;
+        text-align: center;
+    }
+    .creeping_line img {
+        width: 10vw;
+        height: 5vw;
+    }
+    .creeping_line_dynamic {
+        margin-top: 2%;
+    }
+    .promo_sauce_on_the_table img {
+        max-width: 100%;
+        width: 97vw;
+        height: 60vw;
+        margin-top: 1%;
+    }
+    .promo_right_column {
+        width: 100%;
+        border-top: black solid 0.12vw;
+    }
+    h1 {
+        margin-top: 1%;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .promo_sauce_in_hands img {
+        max-width: 100%;
+        margin: 0;
+        width: 100vw;
+        height: 100vw;
+    }
+    .scorpions_and_title {
+        max-width: 100%;
+        width: 100vw;
+        height: 20vw;
+    }
+    h2 {
+        font-size: 1em;
+    }
+    .scorpions_and_title img {
+        width: 15vw;
+        height: 10vw;
+        margin-left: 1%;
+    }
+    .products_cards {
+        width: 100%;
+        overflow-x: scroll;
+    }
+    .icons_cards {
+        display: flex;
+        justify-content: space-between;
+    }
+    .small_fire_icon {
+        display: none;
+        width: 6vw;
+    }
+    .big_fire_icon {
+        position: absolute;
+        width: 6vw;
+    }
+    .products {
+        width: 180%;
+        margin-left: 20%;
+        margin-right: 15%;
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr;
+    }
+    .products picture img {
+        width: 45vw;
+        height: 80vw;
+        margin-top: -10%;
+    }
+    .product_text_1 {
+        font-size: 2vw;
+        top: 25%;
+        left: -5%;
+        margin-bottom: 5%;
+    }
+    .product_text_2 {
+        font-size: 3vw;
+        top: 25%;
+        left: -5%;
+    }
+    .sauce_drip img {
+        width: 100vw;
+    }
+    .History {
+        display: grid;
+    }
+    .history_left_column {
+        width: 100%;
+        border: none;
+    }
+    .history_left_column h2 {
+        text-align: center;
+        width: 100vw;
+        height: 10vw;
+        font-size: 3.1vw;
+        margin-top: 5%;
+    }
+    .history_left_column img {
+        max-width: 100%;
+        width: 100vw;
+        height: 65vw;
+    }
+    .history_right_column {
+        width: 100%;
+    }
+    .history_right_column img {
+        max-width: 100%;
+        width: 100vw;
+        height: 80vw;
+    }
+    .history_of_product_text {
+        font-size: 2vw;
+        margin-top: 20%;
+    }
+    .green_background {
+        width: 150vw;
+        height: 50vw;
+    }
+    footer {
+        justify-content: space-between;
+        background: #CDFD3B;
+        margin-top: 0;
+        width: 100vw;
+        height: 3vw;
+        font-size: 2vw;
+    }
+    footer a {
+        display: flex;
+        align-items: center;
+        width: 1vw;
+        margin-left: 2%;
+    }
+    footer address {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        white-space: nowrap;
+        gap: 30%;
+        width: 65vw;
+    }
+}
