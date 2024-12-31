@@ -1,1 +1,30 @@
-/* Здесь должны быть общие стили для унификации в разных браузерах. Удалите этот комментарий при начала разработки */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 1%;
+    text-transform: uppercase;
+    width: 98%;
+    border: 0.12vw solid black;
+}
+
+button {
+    color: white;
+    background: #FB4B4D;
+    border: none;
+    font-size: 1vw;
+    padding: 1vw 2vw;
+}
+
+h1, h2 {
+    font-weight: bold;
+    text-align: center;
+}
