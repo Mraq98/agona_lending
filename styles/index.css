@@ -85,6 +85,12 @@ header img {
     margin-top: 0.5vw;
     align-items: center;
     white-space: nowrap;
+    animation-name: creeping;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+
 }
 
 .promo_sauce_on_the_table {
